@@ -28,7 +28,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 32
+    namespace 'com.memtopia.flutter_trust_wallet_core'
+    compileSdkVersion 35
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
